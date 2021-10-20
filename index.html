@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Морской Бой</title>
+</head>
+<body>
+    <header>
+        <h1>Морской бой</h1>
+    </header>
+    <main>
+        <div class="battlefield__container">
+            <div class="battlefield__human"></div>
+            <div class="battlefield__current-move hide"></div>
+            <div class="battlefield__comp"></div>
+            <div class="battlefield__manual-place hide">
+                <ul>
+                    <li>
+                        <div class="ship fourdeck"></div>
+                        <div class="ship tripledeck"></div>
+                        <div class="ship tripledeck"></div>
+                    </li>
+                    <li>
+                        <div class="ship doubledeck"></div>
+                        <div class="ship doubledeck"></div>
+                        <div class="ship doubledeck"></div>
+                        <div class="ship singledeck"></div>
+                        <div class="ship singledeck"></div>
+                        <div class="ship singledeck"></div>
+                        <div class="ship singledeck"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button class="btn__start">Старт</button>
+        <button class="btn__random-place" hidden>Расставить корабли автоматически</button>
+        <button class="btn__manual-place" hidden>Расставить корабли вручную</button>
+        <button class="btn__play" hidden>Начать игру</button>
+        <button class="btn__ready" hidden>Закончить расстановку</button>
+        <button class="btn__cancel" hidden>Выйти</button>
+        <button class="btn__clear" hidden>Очистить</button>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
